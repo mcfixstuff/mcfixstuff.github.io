@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "mcfixstuff / GitHub"
+title                    : "McFixStuff's Homepage"
 title_separator          : "-"
 name                     : &name "Eric Parsons"
 description              : &description "personal description"
