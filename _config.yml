@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_photo.png"
+  avatar           : "profile.png"
   name             : "Eric Parsons"
   pronouns         : # example: "she/her"  
   bio              : "A senior with passions in sound engineering, video production, electronics repair, and helping others."
