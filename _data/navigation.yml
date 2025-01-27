@@ -6,7 +6,7 @@
 
 main:
   - title: "Resume"
-    url: RESUME.pdf
+    url: /RESUME.pdf
 
   - title: "UH CompSci"
     url: cs.uh.edu   
