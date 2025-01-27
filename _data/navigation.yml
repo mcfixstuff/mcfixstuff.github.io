@@ -1,4 +1,4 @@
-# The following is the order of the links in the header of the website.
+U# The following is the order of the links in the header of the website.
 #
 # Changing the order here will adjust the order and you can also add additional
 # links. Removing a link prevents it from showing in the header, but does not
@@ -6,7 +6,7 @@
 
 main:
   - title: "Resume"
-    url: blob:https://github.com/ba1d8cfe-a950-4154-a02b-38d899bf0a6e
+    url: RESUME.pdf
 
   - title: "UH CompSci"
     url: cs.uh.edu   
