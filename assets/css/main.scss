@@ -1,48 +1,41 @@
-/* Dark Theme Styles */
-body.dark-theme {
-    background-color: #121212;
-    color: #ffffff;
-}
+---
+---
 
-.dark-theme a {
-    color: #bb86fc;
-}
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
 
-.dark-theme h1, 
-.dark-theme h2, 
-.dark-theme h3, 
-.dark-theme h4, 
-.dark-theme h5, 
-.dark-theme h6 {
-    color: #ffffff;
-}
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
 
-.dark-theme .masthead, 
-.dark-theme .footer, 
-.dark-theme .sidebar {
-    background-color: #1e1e1e;
-    color: #ffffff;
-}
+@import "reset";
+@import "base";
 
-.dark-theme .container, 
-.dark-theme .post, 
-.dark-theme .page {
-    background-color: #1e1e1e;
-    border-color: #333;
-}
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
 
-.dark-theme blockquote {
-    background: #222;
-    border-left: 5px solid #bb86fc;
-}
+@import "forms";
 
-.dark-theme code {
-    background-color: #2a2a2a;
-    color: #ffcc00;
-}
+@import "page";
+@import "archive";
+@import "sidebar";
 
-.dark-theme table {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    border-color: #444;
-}
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
