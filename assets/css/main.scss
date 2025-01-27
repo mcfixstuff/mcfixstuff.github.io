@@ -2,7 +2,7 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
+ *    Minimal Mistakes Jekyll Theme - Dark Mode
  *
  *  - Michael Rose
  *  - mademistakes.com
@@ -39,3 +39,72 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Dark Theme Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    color: #bb86fc;
+}
+
+a:hover {
+    color: #ff79c6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+.masthead, 
+.footer, 
+.sidebar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.container, 
+.page, 
+.archive, 
+.post {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+blockquote {
+    background: #222;
+    border-left: 5px solid #bb86fc;
+}
+
+code, pre {
+    background-color: #2a2a2a;
+    color: #ffcc00;
+}
+
+table {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+
+button, 
+input, 
+textarea {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+/* Dark mode toggle button (optional) */
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    cursor: pointer;
+}
