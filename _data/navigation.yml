@@ -6,7 +6,7 @@
 
 main:
   - title: "Resume"
-    url: /publications/
+    url: blob:https://github.com/ba1d8cfe-a950-4154-a02b-38d899bf0a6e
 
   - title: "UH CompSci"
     url: cs.uh.edu   
