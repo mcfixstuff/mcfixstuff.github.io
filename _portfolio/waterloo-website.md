@@ -23,3 +23,7 @@ The **Waterloo Website** is a Django web app built for coursework, inspired by u
 - **Extras:** Integrated form system with PDF export, admin interface, and error logging middleware
 
 While not publicly deployed, the codebase is structured for fast deployment and expansion.
+
+Check out the source code here:  
+[Waterloo Website GitHub Repo](https://github.com/mcfixstuff/Waterloo_Website)
+
